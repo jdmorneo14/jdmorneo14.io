@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logypluss - Transporte y Logística</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #fff;
+        }
+        header {
+            background-color: #FF6600;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            color: #6A0DAD;
+            display: inline;
+        }
+        header h1 span {
+            color: #fff;
+        }
+        nav {
+            background-color: #fff;
+            border-bottom: 2px solid #FF6600;
+            padding: 10px;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+            position: relative;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        nav ul li ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #fff;
+            border: 1px solid #FF6600;
+            list-style: none;
+            padding: 10px;
+            z-index: 1000;
+        }
+        nav ul li:hover ul {
+            display: block;
+        }
+        nav ul li ul li {
+            margin: 0;
+        }
+        section {
+            padding: 40px 20px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-between;
+        }
+        .section-box {
+            background-color: #F3F3F3;
+            border: 2px solid #FF6600;
+            border-radius: 8px;
+            padding: 20px;
+            flex: 1 1 45%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .section-box:hover {
+            transform: scale(1.05);
+        }
+        .section-box h3 {
+            color: #6A0DAD;
+        }
+        .cta-box {
+            background-color: #FF6600;
+            color: white;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            flex: 1 1 100%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .cta-box h3 {
+            margin-bottom: 15px;
+        }
+        .cta-box p {
+            font-size: 18px;
+        }
+        .whatsapp-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25D366;
+            color: #fff;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            font-size: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            padding: 20px;
+            background-color: #F3F3F3;
+            text-align: center;
+        }
+        footer div {
+            border: 1px solid #FF6600;
+            padding: 10px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Logy<span>pluss</span></h1>
+        <p>“Movemos lo que importa, conectamos tus sueños”</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="https://wa.me/3143780858" target="_blank">Cotiza Ya</a></li>
+        </ul>
+    </nav>
+    <section>
+        <div class="container">
+            <div class="section-box">
+                <h3>LOGYPLUSS: TU SOCIO EN TRANSPORTE Y LOGÍSTICA</h3>
+                <p>En Logypluss, somos expertos en transporte terrestre y logística a nivel nacional, conectando grandes ciudades y operaciones locales en Colombia. Ofrecemos soluciones seguras, confiables y adaptadas a tus necesidades. ¡Con nosotros, tu carga siempre llega a tiempo!</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="section-box">
+                <h3>Nuestros Servicios</h3>
+                <p><strong>Transporte Terrestre Nacional:</strong> Llegamos a las principales ciudades de Colombia con rutas ágiles y optimizadas.</p>
+                <p><strong>Distribución Local:</strong> Manejo eficiente de entregas en zonas urbanas y rurales.</p>
+                <p><strong>Logística Integral:</strong> Diseñamos soluciones que optimizan tiempos y costos.</p>
+                <p><strong>Seguimiento en Tiempo Real:</strong> Controla tu carga desde el origen hasta el destino.</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="section-box">
+                <h3>Lo que nos hace únicos</h3>
+                <p><strong>Puntualidad Garantizada:</strong> Cumplimos con los tiempos de entrega.</p>
+                <p><strong>Seguridad y Confianza:</strong> Manejamos tus envíos con el mayor cuidado.</p>
+                <p><strong>Cobertura Nacional:</strong> Operamos en las principales ciudades, como Bogotá, Medellín, Cali, Barranquilla, y más.</p>
+                <p><strong>Atención Personalizada:</strong> Nos ajustamos a tus requerimientos específicos.</p>
+            </div>
+
+            <div class="cta-box">
+                <h3>¡Trabajemos Juntos!</h3>
+                <p>¿Estás listo para llevar tu logística al siguiente nivel? En Logypluss, estamos comprometidos con tu éxito. Conéctate con nosotros y descubre cómo podemos ayudarte a optimizar tus operaciones.</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <p>📞 Teléfono: 3212027559 | 3143780858</p>
+            <p>✉️ Email: logypluss@gmail.com</p>
+            <p>📍 Ubicación: cra71d #64i-22</p>
+            <p>“Confía en nosotros para ser la fuerza que impulsa tu negocio hacia el éxito.”</p>
+        </div>
+    </footer>
+    <a class="whatsapp-btn" href="https://wa.me/3143780858" target="_blank">📱</a>
+</body>
+</html>
+
+
+
+
+
